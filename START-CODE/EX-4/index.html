@@ -1,0 +1,272 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StudySpace Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+
+<body>
+<div class="dashboard">
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+        <h2 class="logo">StudySpace</h2>
+
+        <nav>
+            <a href="#" class="active">
+                <i class="fa-solid fa-house"></i> Dashboard
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-book"></i> My Courses
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-clipboard-list"></i> Assignments
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-calendar"></i> Schedule
+            </a>
+            <a href="#">
+                <i class="fa-solid fa-gear"></i> Settings
+            </a>
+        </nav>
+    </aside>
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+        <header class="header">
+            <h2>Dashboard</h2>
+
+            <div class="profile">
+                <i class="fa-solid fa-bell notification"></i>
+                <span>Vorn Leam</span>
+
+                <img
+                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHRNl76ihir4QsoDy6kE18AJKttCPlHlzHsWbgutA2Qg&s=10"
+                alt="Leam's profile picture">
+            </div>
+        </header>
+        <!-- WELCOME BANNER -->
+        <section class="welcome">
+
+            <div class="welcome-text">
+                <h1>Welcome back, Leam!</h1>
+                <p>Keep learning and achieve your goals.</p>
+                <p class="welcome-small">
+                    Every small step brings you closer to success!
+                </p>
+            </div>
+
+            <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU6zU4KFlU5ZKf60sr3bQaVUPpDQWJxg0Dxq6uiFzarg&s=10"
+            alt="Student studying at a desk">
+        </section>
+
+        <!-- STATISTICS -->
+        <section class="stats">
+
+            <div class="stat-card">
+                <div class="stat-icon blue">
+                    <i class="fa-solid fa-book-open"></i>
+                </div>
+                <h3>04</h3>
+                <p>Total Courses</p>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon green">
+                    <i class="fa-solid fa-circle-check"></i>
+                </div>
+                <h3>12</h3>
+                <p>Completed Tasks</p>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon orange">
+                    <i class="fa-solid fa-clock"></i>
+                </div>
+                <h3>05</h3>
+                <p>Pending Tasks</p>
+            </div>
+
+            <div class="stat-card">
+                <div class="stat-icon purple">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+                <h3>85%</h3>
+                <p>Overall Progress</p>
+            </div>
+
+        </section>
+
+        <!-- WEEKLY STUDY ACTIVITY -->
+        <div class="activity">
+            <div class="section-heading">
+                <div>
+                    <h2>Weekly Study Activity</h2>
+                    <p>Your study hours this week</p>
+                </div>
+
+                <span class="week-label">This Week</span>
+            </div>
+            <div class="chart">
+                <div class="chart-item">
+                    <div class="bar" style="height: 45%"></div>
+                    <span>Mon</span>
+                </div>
+                <div class="chart-item">
+                    <div class="bar" style="height: 70%"></div>
+                    <span>Tue</span>
+                </div>
+                <div class="chart-item">
+                    <div class="bar" style="height: 55%"></div>
+                    <span>Wed</span>
+                </div>
+                <div class="chart-item">
+                    <div class="bar" style="height: 90%"></div>
+                    <span>Thu</span>
+                </div>
+                <div class="chart-item">
+                    <div class="bar" style="height: 65%"></div>
+                    <span>Fri</span>
+                </div>
+                <div class="chart-item">
+                    <div class="bar" style="height: 80%"></div>
+                    <span>Sat</span>
+                </div>
+                <div class="chart-item">
+                    <div class="bar" style="height: 35%"></div>
+                    <span>Sun</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- MY COURSES -->
+        <section class="courses">
+            <div class="section-heading">
+                <div>
+                    <h2>My Courses</h2>
+                    <p>Continue your learning journey</p>
+                </div>
+                <a href="#" class="view-all">View All</a>
+            </div>
+            <div class="course-list">
+                <div class="course-card">
+                    <img
+                    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=500&h=250&fit=crop"
+                    alt="Web development">
+                    <div class="course-info">
+                        <span class="course-category">Web Development</span>
+                        <h3>HTML & CSS</h3>
+                        <div class="progress">
+                            <div class="progress-fill" style="width:80%"></div>
+                        </div>
+                        <p>80% Completed</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img
+                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=500&h=250&fit=crop"
+                    alt="Programming code">
+                    <div class="course-info">
+                        <span class="course-category">Programming</span>
+                        <h3>C++ Programming</h3>
+                        <div class="progress">
+                            <div class="progress-fill" style="width:65%"></div>
+                        </div>
+                        <p>65% Completed</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img
+                    src="https://images.unsplash.com/photo-1544383835-bda2bc66a55d?w=500&h=250&fit=crop"
+                    alt="Database learning">
+
+                    <div class="course-info">
+                        <span class="course-category">Database</span>
+                        <h3>Database </h3>
+                        <div class="progress">
+                            <div class="progress-fill" style="width:45%"></div>
+                        </div>
+                        <p>45% Completed</p>
+                    </div>
+                </div>
+
+                <div class="course-card">
+                    <img
+                    src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=500&h=250&fit=crop"
+                    alt="Computer networking servers">
+
+                    <div class="course-info">
+                        <span class="course-category">Networking</span>
+                        <h3>Computer Networks</h3>
+                        <div class="progress">
+                            <div class="progress-fill" style="width:60%"></div>
+                        </div>
+                        <p>60% Completed</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- UPCOMING ASSIGNMENTS -->
+        <div class="tasks">
+            <div class="section-heading">
+                <div>
+                    <h2>Upcoming Assignments</h2>
+                    <p>Keep track of your tasks</p>
+                </div>
+                <a href="#" class="view-all">View All</a>
+            </div>
+
+            <div class="task">
+                <div class="task-info">
+                    <i class="fa-solid fa-file-code task-icon blue-text"></i>
+                    <div>
+                        <h3>HTML Project</h3>
+                        <p>Due: November 12, 2026</p>
+                    </div>
+                </div>
+                <span class="pending">
+                    <i class="fa-solid fa-clock"></i> Pending
+                </span>
+            </div>
+
+            <div class="task">
+                <div class="task-info">
+                    <i class="fa-solid fa-code task-icon purple-text"></i>
+                    <div>
+                        <h3>C++ Exercise</h3>
+                        <p>Due: November 10, 2026</p>
+                    </div>
+                </div>
+                <span class="completed">
+                    <i class="fa-solid fa-circle-check"></i> Completed
+                </span>
+            </div>
+
+            <div class="task">
+                <div class="task-info">
+                    <i class="fa-solid fa-database task-icon orange-text"></i>
+                    <div>
+                        <h3>Database Assignment</h3>
+                        <p>Due: November 15, 2026</p>
+                    </div>
+                </div>
+                <span class="pending">
+                    <i class="fa-solid fa-clock"></i> Pending
+                </span>
+            </div>
+
+        </div>
+
+    </main>
+</div>
+
+</body>
+</html>
