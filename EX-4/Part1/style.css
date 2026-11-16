@@ -1,0 +1,37 @@
+.wrapper {
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.content {
+  background-color: white;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.small {
+  display: inline-block;
+  background-color: tomato;
+  color: white;
+  font-size: 12px;
+  padding: 4px;
+}
+.big {
+  display: none;
+  background-color: yellowgreen;
+  color: white;
+  font-size: 28px;
+  padding: 6px;
+}
+
+
+@media only screen and (min-width: 600px) {
+  .small {
+    display: none;
+  }
+
+  .big {
+    display: inline-block;
+  }
+}
